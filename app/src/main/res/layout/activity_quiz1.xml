@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".quiz1"
+    android:orientation="vertical"
+    android:padding="35dp">
+
+
+    <ImageView
+        android:id="@+id/tvQ1"
+        android:layout_width="311dp"
+        android:layout_height="186dp"
+        android:layout_gravity="center"
+        android:background="@drawable/morocco"
+        android:textColor="@color/colorAccent"
+        android:textSize="26sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Marrakech est elle la capitale du Maroc ?"
+        android:textSize="26sp"
+        android:textColor="@color/colorPrimaryDark"
+        />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/RG">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vrai"
+            android:id="@+id/Rb1"
+            android:textSize="30dp"
+
+            />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Faux"
+            android:id="@+id/Rb2"
+            android:textSize="30dp"
+            android:layout_marginTop="20dp"
+            />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/BtnNext"
+        android:layout_width="match_parent"
+        android:layout_height="79dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:background="#C0C0C0"
+        android:text="Next"
+        android:textColor="#000000"
+        android:textSize="25dp"></Button>
+
+</LinearLayout>
